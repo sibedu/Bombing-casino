@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  --color-fondo: #0f0f0f;
+  --color-verde-neon: #39ff14;
+  --color-verde-oscuro: #1a2e1a;
+  --color-gris-oscuro: #1e1e1e;
+  --color-texto-gris: #cfcfcf;
+  --color-alerta: #ff4d4d;
+}
+*{
+  user-select: none;
+}
+
+.btn{
+  box-shadow: 0 0 6px 3px rgb(45, 147, 44);
+  background-color: #00000000;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px 15px;
+  transition: all .3s ease-out;
+  cursor: pointer;
+}
+
+.btn:hover{
+  scale: 1.1;
+  background-color: rgba(52, 110, 58, 0.408);
+  
+}
+
+input{
+  box-shadow: 0 0 6px 3px rgb(45, 147, 44), 0 0 5px 4px rgb(122, 213, 136);
+  
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn-jugar{
+  box-shadow: 0 0 6px 3px rgb(45, 147, 44);
+  background-color: #00000000;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 15px 15px;
+  width: 85%;
+  transition: all .3s ease-out;
+  cursor: pointer;
+
+  &:hover{
+    scale: 1.1;
+    background-color: rgba(27, 194, 43, 0.408);
+  }
+}
+
+
+.btn-retiro{
+  box-shadow: 0 0 6px 3px rgb(44, 107, 147);
+  background-color: #00000000;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 15px 15px;
+  width: 85%;
+  transition: all .3s ease-out;
+  cursor: pointer;
+
+  &:hover{
+    scale: 1.1;
+    background-color: rgba(41, 93, 153, 0.408);
+  }
+}
+
+.btn-contador{
+  
+  background-color: #00000000;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px 15px;
+  transition: all .3s ease-out;
+  cursor: pointer;
+  transition: all .6 ease-in-out;
+
+
+
+}
+
+.btn-aumento{
+  box-shadow: 0 0 6px 3px rgb(45, 147, 44);
+  &:hover{
+    scale: 1.05;
+    background-color:rgba(50, 118, 65, 0.442) ;
+  }
+}
+
+.btn-disminucion{
+  box-shadow: 0 0 6px 3px rgb(167, 13, 65);
+ 
+
+  &:hover{
+    scale: 1.05;
+    background-color:rgba(88, 34, 48, 0.442) ;
+  }
+
+}
+
+
+.casilla{
+  transition: all .4s ease-in-out;
+  &:hover{
+    scale: 1.1;
+  }
+}

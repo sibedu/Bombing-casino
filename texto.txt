@@ -1,0 +1,45 @@
+cuadro 5x5 3x3 7x7 9x9  
+elegir cantidad de minas
+aumentar apuestas por cada cuadro descubierto
+
+componentes
+
+casilla
+tablero
+panel de control
+multiplicadores
+
+
+le metemos una base de datos?
+auth?
+modo multijuador por turnos?
+
+usar zustand
+
+
+falta
+
+
+comienza juego y apostamos el dinero
+
+dinero 100
+apostado 30
+enjuego  =apostado
+
+si saca 1
+dinero-apostado
+apostado=0 enjuego=0
+
+si saca 0
+
+enjuego=en juego x multiplicador
+
+
+si retira
+
+dinero = dinero+enjuegi+apostado
+enjuego 0
+apostado 0
+
+
+
